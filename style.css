@@ -32,7 +32,7 @@
   color: rgba(11, 11, 230, 0.712);
 }
 
-.section-cards-down .down3 span, .section-cards-down .down2 span, .section-cards-down .down1 span {
+.section-right-cards-down3 span, .section-right-cards-down2 span, .section-right-cards-down1 span {
   padding: 0 6px;
   border: 1px solid none;
   border-radius: 50%;
@@ -71,7 +71,7 @@
   color: rgba(11, 11, 230, 0.712);
 }
 
-.section-cards-down .down3 span, .section-cards-down .down2 span, .section-cards-down .down1 span {
+.section-right-cards-down3 span, .section-right-cards-down2 span, .section-right-cards-down1 span {
   padding: 0 6px;
   border: 1px solid none;
   border-radius: 50%;
@@ -188,6 +188,15 @@ hr {
   gap: 20px;
   padding-left: 53px;
 }
+.section-right-cards-down1 span {
+  background-color: orangered;
+}
+.section-right-cards-down2 span {
+  background-color: purple;
+}
+.section-right-cards-down3 span {
+  background-color: fuchsia;
+}
 .section-right-cards-main {
   border: 1px solid rgb(212, 208, 208);
   width: 400px;
@@ -208,18 +217,9 @@ hr {
   color: gray;
   font-weight: 600;
 }
-.section-cards-down {
+.section-right-cards-main-cards-down {
   display: flex;
   align-items: flex-end;
-}
-.section-cards-down .down1 span {
-  background-color: orangered;
-}
-.section-cards-down .down2 span {
-  background-color: purple;
-}
-.section-cards-down .down3 span {
-  background-color: fuchsia;
 }
 
 .end {
@@ -257,7 +257,7 @@ hr {
   color: rgba(11, 11, 230, 0.712);
 }
 
-.section-cards-down .down1 span, .section-cards-down .down2 span, .section-cards-down .down3 span {
+.section-right-cards-down1 span, .section-right-cards-down2 span, .section-right-cards-down3 span {
   padding: 0 6px;
   border: 1px solid none;
   border-radius: 50%;

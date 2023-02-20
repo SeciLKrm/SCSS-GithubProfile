@@ -93,8 +93,7 @@ a{
 }
 &-right{
 width: 100%;
-}
-&-right-article{
+&-article{
     display: flex;
     justify-content: space-between;
     padding: 0 60px;
@@ -113,16 +112,31 @@ font-family: $font-family;
 margin-top: 20px;
 }
 }
-
-&-right-cards{
+&-cards{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding-left: 53px;
-    
-  
+    &-down1{
+        span{
+            @extend %span;
+         background-color: orangered;
+}
     }
-    &-right-cards-main{
+    &-down2{
+        span{
+            @extend %span;
+         background-color: purple;
+}
+    }
+    &-down3{
+        span{
+            @extend %span;
+         background-color: fuchsia;
+}
+    }
+  
+     &-main{
     border: 1px solid $border;  
     width: 400px;
     height: 100px;
@@ -147,30 +161,15 @@ margin-top: 20px;
            }
 
         }
-    }
     &-cards-down{
         display: flex;
         align-items: flex-end;
-        .down1{
-            span{
-                @extend %span;
-             background-color: orangered;
-    }
-        }
-        .down2{
-            span{
-                @extend %span;
-             background-color: purple;
-    }
-        }
-        .down3{
-            span{
-                @extend %span;
-             background-color: fuchsia;
-    }
-        }
-    }
-   } 
+       
+    } 
+}
+}
+}
+} 
   .end{
     margin: 40px 5% ;
      }

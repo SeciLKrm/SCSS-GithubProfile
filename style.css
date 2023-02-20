@@ -1,38 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=La+Belle+Aurore&family=Lobster&family=Noto+Serif+Ahom&family=Poppins:wght@300;400;700;800&family=Roboto:wght@300;400;900&family=Source+Sans+Pro:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=La+Belle+Aurore&family=Labrada:wght@400;500&family=Lobster&family=Noto+Sans+Display:wght@400;500&family=Noto+Sans:wght@300;400&family=Poppins:wght@300;400;700;800&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=La+Belle+Aurore&family=Labrada:wght@400;500&family=Lobster&family=Noto+Sans+Display:wght@400;500&family=Noto+Sans:wght@300;400&family=Poppins:wght@300;400;700;800&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&display=swap");
-.flex, .header, .footer-logo, .footer {
+.header, .footer-logo, .footer {
   display: flex;
   align-items: center;
 }
 
-.group, .header-rightlinks a, .header-links a {
+.header-rightlinks a, .header-links a {
   padding: 15px;
   font-size: 15px;
   color: white;
   font-family: "Labrada", serif;
 }
 
-.feature, .header-rightlinks a, .header-links a {
+.header-rightlinks a, .header-links a {
   text-decoration: none;
 }
-.feature:hover, .header-rightlinks a:hover, .header-links a:hover {
+.header-rightlinks a:hover, .header-links a:hover {
   color: #b1aeae;
 }
 
-.design, .section-right-cards-main {
+.section-right-cards-main {
   margin: 5px 0px;
   padding: 20px 20px;
   border-radius: 5px;
   font-size: 16px;
 }
 
-.a, .footer-links a, .section-right-cards-main .cards-up a {
+.footer-links a, .section-right-cards-main-cards-up a {
   text-decoration: none;
   color: rgba(11, 11, 230, 0.712);
 }
 
-.span, .section .cards-down .down3 span, .section .cards-down .down2 span, .section .cards-down .down1 span {
+.section-cards-down .down3 span, .section-cards-down .down2 span, .section-cards-down .down1 span {
   padding: 0 6px;
   border: 1px solid none;
   border-radius: 50%;
@@ -40,38 +40,38 @@
   margin-right: 5px;
 }
 
-.flex, .header, .footer-logo, .footer {
+.header, .footer-logo, .footer {
   display: flex;
   align-items: center;
 }
 
-.group, .header-rightlinks a, .header-links a {
+.header-rightlinks a, .header-links a {
   padding: 15px;
   font-size: 15px;
   color: white;
   font-family: "Labrada", serif;
 }
 
-.feature, .header-rightlinks a, .header-links a {
+.header-rightlinks a, .header-links a {
   text-decoration: none;
 }
-.feature:hover, .header-rightlinks a:hover, .header-links a:hover {
+.header-rightlinks a:hover, .header-links a:hover {
   color: #b1aeae;
 }
 
-.design, .section-right-cards-main {
+.section-right-cards-main {
   margin: 5px 0px;
   padding: 20px 20px;
   border-radius: 5px;
   font-size: 16px;
 }
 
-.a, .footer-links a, .section-right-cards-main .cards-up a {
+.footer-links a, .section-right-cards-main-cards-up a {
   text-decoration: none;
   color: rgba(11, 11, 230, 0.712);
 }
 
-.span, .section .cards-down .down3 span, .section .cards-down .down2 span, .section .cards-down .down1 span {
+.section-cards-down .down3 span, .section-cards-down .down2 span, .section-cards-down .down1 span {
   padding: 0 6px;
   border: 1px solid none;
   border-radius: 50%;
@@ -133,7 +133,7 @@ hr {
   font-size: 30px;
   margin-top: 10px;
 }
-.section-left .username {
+.section-left-username {
   font-size: 20px;
 }
 .section-left button {
@@ -149,12 +149,12 @@ hr {
   background-color: #e5e7e9;
   cursor: pointer;
 }
-.section-left .follow {
+.section-left-follow {
   margin-top: 15px;
   font-weight: 100;
   margin-bottom: 20px;
 }
-.section-left .follow span {
+.section-left-follow span {
   font-weight: 500;
   font-size: 18px;
 }
@@ -170,13 +170,13 @@ hr {
   padding: 0 60px;
   align-items: end;
 }
-.section .first {
+.section-right-article-first {
   color: rgb(56, 56, 56);
   font-size: 16px;
   font-family: "Labrada", serif;
   margin-top: 20px;
 }
-.section .last {
+.section-right-article-last {
   color: gray;
   font-size: 13px;
   font-family: "Labrada", serif;
@@ -193,32 +193,32 @@ hr {
   width: 400px;
   height: 100px;
 }
-.section-right-cards-main .cards-up {
+.section-right-cards-main-cards-up {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.section-right-cards-main .cards-up a:hover {
+.section-right-cards-main-cards-up a:hover {
   text-decoration: underline;
 }
-.section-right-cards-main .cards-up button {
+.section-right-cards-main-cards-up button {
   padding: 2px 5px;
   border-radius: 30px;
   border: 1px solid rgb(212, 208, 208);
   color: gray;
   font-weight: 600;
 }
-.section .cards-down {
+.section-cards-down {
   display: flex;
   align-items: flex-end;
 }
-.section .cards-down .down1 span {
+.section-cards-down .down1 span {
   background-color: orangered;
 }
-.section .cards-down .down2 span {
+.section-cards-down .down2 span {
   background-color: purple;
 }
-.section .cards-down .down3 span {
+.section-cards-down .down3 span {
   background-color: fuchsia;
 }
 
@@ -226,38 +226,38 @@ hr {
   margin: 40px 5%;
 }
 
-.flex, .header, .footer-logo, .footer {
+.header, .footer-logo, .footer {
   display: flex;
   align-items: center;
 }
 
-.group, .header-rightlinks a, .header-links a {
+.header-rightlinks a, .header-links a {
   padding: 15px;
   font-size: 15px;
   color: white;
   font-family: "Labrada", serif;
 }
 
-.feature, .header-rightlinks a, .header-links a {
+.header-rightlinks a, .header-links a {
   text-decoration: none;
 }
-.feature:hover, .header-rightlinks a:hover, .header-links a:hover {
+.header-rightlinks a:hover, .header-links a:hover {
   color: #b1aeae;
 }
 
-.design, .section-right-cards-main {
+.section-right-cards-main {
   margin: 5px 0px;
   padding: 20px 20px;
   border-radius: 5px;
   font-size: 16px;
 }
 
-.a, .footer-links a, .section-right-cards-main .cards-up a {
+.footer-links a, .section-right-cards-main-cards-up a {
   text-decoration: none;
   color: rgba(11, 11, 230, 0.712);
 }
 
-.span, .section .cards-down .down1 span, .section .cards-down .down2 span, .section .cards-down .down3 span {
+.section-cards-down .down1 span, .section-cards-down .down2 span, .section-cards-down .down3 span {
   padding: 0 6px;
   border: 1px solid none;
   border-radius: 50%;

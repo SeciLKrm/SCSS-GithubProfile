@@ -16,7 +16,7 @@ body{
 }
 
 .header{
-    @extend .flex;
+    @extend %flex;
    background-color: black;
     height: 60px;
 
@@ -49,16 +49,16 @@ body{
         }
         &-links{
             a{
-                @extend .group;
-                @extend .feature;
+                @extend %group;
+                @extend %feature;
                }
 
              }
       &-rightlinks{
        margin-left: auto;
        a{
-        @extend .group;
-        @extend .feature;
+        @extend %group;
+        @extend %feature;
        }
             
              }

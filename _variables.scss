@@ -4,12 +4,12 @@ $bg: #ffffff;
 $hover: #b1aeae;
 $border:rgb(212, 208, 208);
 $font-family: 'Labrada', serif;;
-.flex{
+%flex{
     display: flex;
     align-items: center;
  }
 
-.group{
+%group{
  padding: 15px;
  font-size: 15px;
  color: white;
@@ -17,24 +17,24 @@ $font-family: 'Labrada', serif;;
 
 
 }
-.feature{
+%feature{
     text-decoration: none;
                 &:hover{
                     color:$hover ;
                 }
 }
-.design{
+%design{
     margin: 5px 0px;
     padding: 20px 20px;
     border-radius: 5px;
     font-size: 16px;
 }
-.a{
+%a{
     text-decoration: none;
             color: rgba(11, 11, 230, 0.712);
             
 }
-.span{
+%span{
     padding: 0 6px;
             border: 1px solid  none;
             border-radius: 50%;

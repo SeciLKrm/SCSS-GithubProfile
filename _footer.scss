@@ -3,10 +3,10 @@
 
 .footer{
     height: 70px;
-   @extend .flex;
+   @extend %flex;
     justify-content:space-evenly;
 &-logo{
-    @extend .flex;
+    @extend %flex;
     padding-left: 30px;
     gap: 12px;
     
@@ -22,7 +22,7 @@ p{
 &-links{
     
     a{
-        @extend .a;
+        @extend %a;
         padding: 0 15px;
         font-size: 14px;
        &:hover{

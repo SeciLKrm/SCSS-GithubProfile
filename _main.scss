@@ -60,7 +60,7 @@ font-weight: 500;
 font-size: 30px;
 margin-top: 10px;
     }
-    .username{
+    &-username{
         font-size: 20px;
     }
     button{
@@ -78,7 +78,7 @@ margin-top: 10px;
         }
        
     }
-    .follow{
+    &-follow{
         margin-top: 15px;
         font-weight: 100;
         margin-bottom: 20px;
@@ -99,20 +99,21 @@ width: 100%;
     justify-content: space-between;
     padding: 0 60px;
     align-items: end;
-}
-.first{
+    &-first{
     color: rgb(56, 56, 56);
     font-size: 16px;
  font-family: $font-family;  
  margin-top: 20px;
   
 }
-.last{
+&-last{
 color: gray;
 font-size: 13px;
 font-family: $font-family;  
 margin-top: 20px;
 }
+}
+
 &-right-cards{
     display: flex;
     flex-wrap: wrap;
@@ -125,13 +126,13 @@ margin-top: 20px;
     border: 1px solid $border;  
     width: 400px;
     height: 100px;
-    @extend .design;
-    .cards-up{
+    @extend %design;
+    &-cards-up{
         display: flex;
         justify-content: space-between;
         margin-bottom: 20px;
         a{
-            @extend .a;
+            @extend %a;
             &:hover{
         text-decoration: underline;
             
@@ -147,24 +148,24 @@ margin-top: 20px;
 
         }
     }
-    .cards-down{
+    &-cards-down{
         display: flex;
         align-items: flex-end;
         .down1{
             span{
-                @extend .span;
+                @extend %span;
              background-color: orangered;
     }
         }
         .down2{
             span{
-                @extend .span;
+                @extend %span;
              background-color: purple;
     }
         }
         .down3{
             span{
-                @extend .span;
+                @extend %span;
              background-color: fuchsia;
     }
         }
